@@ -22,7 +22,7 @@ state("Shipping-ThiefGame", "1.0 32Bit")
 
 state("Shipping-ThiefGame", "1.6 64Bit")
 {
-    byte LoadingScreen: "shipping-thiefgame.exe", 0x213C6F8;
+    byte LoadingScreen: "shipping-thiefgame.exe", 0x21379C0, 0x64;
     string25 Map: 0x0;
     float ycoord: 0x0;
     float xcoord: 0x0;
