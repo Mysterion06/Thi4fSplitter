@@ -1,5 +1,5 @@
 // by ToxicTT (18112019)
-// Credits Mysterion_06_ (Found Pointers on different versions and made them autodetect the versions)
+// Credits Mysterion_06_ (Made 1.0 32bit and an automatic version switcher) & Demonic (Found Pointer for Loadremover in 1.6 64bit)
 
 state("Shipping-ThiefGame", "1.0 64Bit")
 {
