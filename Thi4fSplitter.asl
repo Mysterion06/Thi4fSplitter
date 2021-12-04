@@ -1,5 +1,5 @@
 // by ToxicTT (18112019)
-// Credits Mysterion_06_ (Made 1.0 32bit and an automatic version switcher) & Demonic (Found Pointer for Loadremover in 1.6 64bit)
+// Credits Mysterion_06_ (Found Pointers on different versions and made them autodetect the versions)
 
 state("Shipping-ThiefGame", "1.0 64Bit")
 {
@@ -107,14 +107,14 @@ split
     }
     if (old.Map == "666_SQ_A_Persistent" && current.Map == "000_Transition_Persistent" && vars.splitNum == 6)
     {
-        vars.splitNum += 1;
+        vars.splitNum += 2;
         return true;
     }
-    if (current.Map == "035_A_Persistent" && current.xcoord < -3902 && current.xcoord > -3903 && current.ycoord > 10205 && current.ycoord < 10206 && current.zcoord < -3046 && current.zcoord > -3047 && vars.splitNum == 7)
+    /*if (current.Map == "035_A_Persistent" && current.xcoord < -3902 && current.xcoord > -3903 && current.ycoord > 10205 && current.ycoord < 10206 && current.zcoord < -3046 && current.zcoord > -3047 && vars.splitNum == 7)
     {
         vars.splitNum += 1;
         return true;
-    }
+    */}
     if (old.Map == "035_A_Persistent" && current.Map == "000_Transition_Persistent" && vars.splitNum == 8)
     {
         vars.splitNum += 1;
