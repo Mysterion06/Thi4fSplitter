@@ -114,7 +114,7 @@ split
     {
         vars.splitNum += 1;
         return true;
-    */}
+    }*/
     if (old.Map == "035_A_Persistent" && current.Map == "000_Transition_Persistent" && vars.splitNum == 8)
     {
         vars.splitNum += 1;
