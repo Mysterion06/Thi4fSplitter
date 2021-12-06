@@ -114,7 +114,7 @@ split
     {
         vars.splitNum += 1;
         return true;
-    }*/
+    */}
     if (old.Map == "035_A_Persistent" && current.Map == "000_Transition_Persistent" && vars.splitNum == 8)
     {
         vars.splitNum += 1;
@@ -187,14 +187,14 @@ split
 
     if (old.Map == "666_SM_1_Persistent" && current.Map == "000_Transition_Persistent" && vars.splitNum == 21)
     {
-        vars.splitNum += 1;
+        vars.splitNum += 2;
         return true;
     }
-    if (current.Map == "070_A_Persistent" && current.xcoord == -13550 && current.ycoord == -5040 && current.zcoord == -12160 && vars.splitNum == 22)
+    /*if (current.Map == "070_A_Persistent" && current.xcoord == -13550 && current.ycoord == -5040 && current.zcoord == -12160 && vars.splitNum == 22)
     {
         vars.splitNum += 1;
         return true;
-    }
+    }*/
     if (current.Map == "070_A_Persistent" && current.xcoord > -8399.54 && current.xcoord < -8399.53 && current.ycoord > 3893.95 && current.ycoord < 3893.96 && current.zcoord < -7589.75 && current.zcoord > -7589.76 && vars.splitNum == 23)
     {
         vars.splitNum += 1;
